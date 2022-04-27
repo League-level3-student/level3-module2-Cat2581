@@ -1,7 +1,7 @@
 package _00_Intro_to_Sorting_Algorithms;
 
 public class _00_SortingDemo {
-    public static void main(String[] args) {
+    public static void (String[] args) {
         /*
          * Bubble Sort is a simple sorting algorithm that uses 2 for loops over
          * a data structure.
@@ -20,7 +20,10 @@ public class _00_SortingDemo {
          * Sorting an array of numbers from lowest to highest (Ascending order)
          * 1, 2, 3, 4, 5, 6, ...
          */
-        int[] arr = { 6, 2, 4, 5, 1, 3 };
+       for (int i = 0; i < args.length; i++) {
+		
+	}
+    	int[] arr = { 6, 2, 4, 5, 1, 3 };
         
         // This for loop puts every value in the correct position
         for (int i = 0; i < arr.length; i++) {
